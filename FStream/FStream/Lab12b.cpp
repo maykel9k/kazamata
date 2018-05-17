@@ -1,11 +1,12 @@
 
 #include "DataBase.h"
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
 void main()
-    {
+{
     char c;
     DataBase baza("data.bin");
 
@@ -56,4 +57,4 @@ void main()
                 break;
             }
         }
-    }
+}

@@ -14,5 +14,5 @@ struct Student
     double  Average;
     bool    Active;
 
-    friend ostream&operator<<(ostream& os, const Student& s);
+    friend ostream& operator<<(ostream& os, const Student& s);
     };

@@ -8,7 +8,7 @@ using namespace std;
 class DataBase
     {
     public:
-    DataBase(char *file);
+    DataBase(const char* file);
     void ListData(bool akt);
     void Append();
     void Modify();
